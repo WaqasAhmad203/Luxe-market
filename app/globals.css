@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1F2937;
+  --color-charcoal-light: #374151;
+  --color-gold: #D4AF37;
+  --color-gold-light: #E5C158;
+  --color-cream: #FAFAF9;
+  --color-cream-dark: #F5F5F4;
+  
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+/* Custom Utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
